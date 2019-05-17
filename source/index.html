@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="preload" href="fonts/opensans.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="fonts/opensansbold.woff2" as="font" crossorigin="anonymous">
-    <!-- <link href="css/style.min.css" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet"> -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
 
   <header class="page-header">
     <picture class="page-header__logo">
-
+      <source media="(min-width: 1150px)" srcset="img/logo-pink-white-desktop.svg">
+      <source media="(min-width: 768px)" srcset="img/logo-pink-white-tablet.svg">
+      <img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" alt="Логотип приложения Pink">
     </picture>
     <button class="page-header__button"></button>
     <nav class="page-header__nav">
@@ -34,15 +36,20 @@
     </nav>
   </header>
   <main class="page-content">
-    <section class="intro">
+    <section class="section intro">
+      <h2 class="section__title">Взгляните на жизнь иначе!</h2>
     </section>
-    <section class="advantages">
+    <section class="section advantages">
+      <h2 class="section__title">Устали от серости мегаполиса? Нам есть, что вам предложить!</h2>
     </section>
-    <section class="feedback slider">
+    <section class="section feedback slider">
+      <h2 class="section__title"></h2>
     </section>
-    <section class="rates">
+    <section class="section rates">
+      <h2 class="section__title"></h2>
     </section>
-    <section class="contacts">
+    <section class="section contacts">
+      <h2 class="section__title">Остались вопросы? Свяжитесь с нами!</h2>
     </section>
   </main>
   <footer class="page-footer">
