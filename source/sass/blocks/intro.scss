@@ -1,3 +1,52 @@
 .intro {
+  margin-top: -77px;
   background-color: rgb(40, 54, 69);
+  color: #ffffff;
+  background-image: url("/img/bg-back-mobile@1x.jpg");
+  background-size: 100% auto;
+}
+
+.intro__wrapper {
+  padding: 22px;
+  width: 100%;
+  background-color: #283645;
+  &--main {
+    margin-top: 462px;
+  }
+}
+
+.intro__title {
+  display: none;
+}
+
+.intro__download {
+
+}
+
+.intro__apps {
+  @include reset-ul();
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 30px 0;
+  max-width: 205px;
+  margin: 0 auto;
+}
+
+.intro__link {
+  display: inline-flex;
+}
+
+.intro__app {
+  display: inline-flex;
+}
+
+.intro__note {
+  font-size: 14px;
+  font-weight: 300;
+
+  line-height: 24px;
+
+  text-align: center;
+
 }
