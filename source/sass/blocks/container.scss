@@ -1,13 +1,13 @@
 .container {
   width: 100%;
-  padding: 22px;
+  padding: 21px;
 }
 
 @media (min-width: $tablet-width) {
   .container {
     margin: 0 auto;
     width: $tablet-width;
-    background-color: red;
+
   }
 }
 

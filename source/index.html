@@ -43,8 +43,8 @@
 
   </header>
   <main class="page-content">
-    <section class="section intro">
-      <div class="intro__wrapper intro__wrapper--main">
+    <section class="section intro intro--main">
+      <div class="intro__wrapper">
         <h2 class="section__title intro__title">Взгляните на жизнь иначе!</h2>
         <a class="button button--transparent intro__download">Скачать приложение</a>
         <ul class="intro__apps">
@@ -70,13 +70,105 @@
       </div>
     </section>
     <section class="section advantages">
-      <h2 class="section__title">Устали от серости мегаполиса? Нам есть, что вам предложить!</h2>
+      <div class="container">
+        <h2 class="section__title advantages__title">
+          <p>Устали от серости мегаполиса?</p>
+          <p>Нам есть, что вам предложить!</p>
+        </h2>
+        <div class="advantages__list">
+          <div class="advantages__item">
+            <h3 class="advantages__name">
+            Поднимает настроение
+            </h3>
+            <p class="advantages__info">
+              Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+            </p>
+          </div>
+          <div class="advantages__item">
+            <h3 class="advantages__name">
+            Меняет мир вокруг
+            </h3>
+            <p class="advantages__info">
+            Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+            </p>
+          </div>
+          <div class="advantages__item">
+            <h3 class="advantages__name">
+            Заводит новых друзей
+            </h3>
+            <p class="advantages__info">
+              Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="section feedback slider">
       <h2 class="section__title"></h2>
+      <div class="slider__toggles">
+        <input class="slider__toggle" type="radio" name="feedback" id="feedback-1">
+        <label class="slider__label" for="feedback-1"></label>
+        <input class="slider__toggle" type="radio" name="feedback" id="feedback-2">
+        <label class="slider__label" for="feedback-2"></label>
+        <input class="slider__toggle" type="radio" name="feedback" id="feedback-3">
+        <label class="slider__label" for="feedback-3"></label>
+      </div>
+      <blockquote class="feedback__item slider__item">
+        <cite class="feedback__author">
+          <b>Николай Петров</b>
+          <span>25 лет, водитель трамвая</span>
+        </cite>
+        <p class="feedback__cite">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+      </blockquote>
     </section>
     <section class="section rates">
       <h2 class="section__title"></h2>
+        <input class="slider__toggle" type="radio" name="rate" id="rate-1" checked>
+        <input class="slider__toggle" type="radio" name="rate" id="rate-2">
+        <input class="slider__toggle" type="radio" name="rate" id="rate-3">
+      <div class="slider__toggles">
+        <label class="slider__label" for="rate-1"></label>
+        <label class="slider__label" for="rate-2"></label>
+        <label class="slider__label" for="rate-3"></label>
+      </div>
+      <div class="container">
+        <table class="rates__table">
+          <tr>
+            <th class="rates__cell rates__cell--column1"></th>
+            <th class="rates__top">
+              <b>База</b>
+              <span>1,99 USD</span>
+            </th>
+            <th class="rates__top">
+              <b>Стандарт</b>
+              <span>3,99 USD</span>
+            </th>
+            <th class="rates__top">
+              <b>Анлим</b>
+              <span>9,99 USD</span>
+            </th>
+          </tr>
+          <tr>
+            <td class="rates__cell">Розовый фильтр</td>
+
+            <td class="rates__cell"></td>
+            <td class="rates__cell"></td>
+            <td class="rates__cell"></td>
+          </tr>
+          <tr>
+            <td class="rates__cell">Смайлики</td>
+            <td class="rates__cell"></td>
+            <td class="rates__cell"></td>
+            <td class="rates__cell"></td>
+          </tr>
+          <tr>
+            <td class="rates__cell">Комментарии</td>
+            <td class="rates__cell"></td>
+            <td class="rates__cell"></td>
+            <td class="rates__cell"></td>
+          </tr>
+        </table>
+      </div>
     </section>
     <section class="section contacts">
       <h2 class="section__title">Остались вопросы? Свяжитесь с нами!</h2>

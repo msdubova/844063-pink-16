@@ -1,0 +1,26 @@
+
+.rates__table {
+  width: 300%;
+
+  border-collapse: collapse;
+}
+
+.rates__top {
+  width: 276px;
+
+  color: #f2f2f2;
+
+  background-color: #283645;
+  border: solid 2px #283645;
+  border-right: 2px solid #f2f2f2;
+}
+
+.rates__cell {
+  width: 1/3;
+
+  border: solid 2px #e5e5e5;
+
+  &--column1 {
+    display: none;
+  }
+}
